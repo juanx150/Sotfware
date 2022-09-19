@@ -1,0 +1,28 @@
+Host: parcial.com
+Accept: application/json
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+{
+"Account": {
+"value": "EFG345",
+"name": "Fuel"
+}
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+###
+GET http://localhost:3000/api/users/618328ab37919bccbd9a9be8
+HTTP/1.1
+###
+DELETE http://localhost:3000/api/users/618352717df6de904fa19af5
+HTTP/1.1
+###
+PUT http://localhost:3000/api/users/6137e2412e329eb206b0073c
+HTTP/1.1
+
+
+
+
+
